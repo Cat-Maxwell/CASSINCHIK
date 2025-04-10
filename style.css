@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .slot-machine {
+    background: #2c3e50;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+  }
+  
+  .slots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .slot {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+  }
+  
+  button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+  }
+  
+  button:hover {
+    background: #c0392b;
+  }
+  
+  button:disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .balance {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .win-message {
+    font-size: 24px;
+    color: #f1c40f;
+    margin: 10px 0;
+    height: 30px;
+  }
+  
+  .bet-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .bet-btn {
+    background: #3498db;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .bet-btn:hover {
+    background: #2980b9;
+  }
+  
+  .bet-amount {
+    font-size: 20px;
+    color: white;
+    min-width: 80px;
+  }
